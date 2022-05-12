@@ -25,25 +25,19 @@
                     <div class="form-group">
                    <button class="btn btn-outline-danger rounded btn-sm"> My Info </button>
                    </div>   
+
                    <?php
-                      if($_POST){
-                       $number = $_POST['number'];
-                       $rnumber= $_POST['rnumber'];
+                   if($_POST){
+                   $number = $_POST['number'];
+                   $rnumber = $_POST['rnumber'];
 
-                       switch ($number) {
-                       case 'value':
-                         //code
-                         break;
-                       default:
-                           # code...
-                          break;
-                      }
-                    }
-
-
-                 ?>
-
-
+                   
+                   $number1 = $number**(1/2);
+                  
+                   echo "Square root of $x is $x1 \n";
+                   echo "Square root of $y is $y1 \n";
+                }
+                    ?>
 
                 </form>
         </div>
